@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7; /* light gray background */
+}
+
+h1 {
+	color: #333; /* dark gray font */
+	text-align: center; /* center the title */
+	margin-bottom: 20px; /* add some space between title and paragraph */
+}
+
+header {
+	background-color: #4CAF50; /* green background */
+	color: #fff; /* white font */
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff; /* white font */
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc; /* light gray font on hover */
+}
+
+p {
+	margin-bottom: 20px;
+	text-align: justify; /* justify the paragraph text */
+}
+
+/* Add some padding to the body to make the content more readable */
+body {
+	padding: 20px;
+}

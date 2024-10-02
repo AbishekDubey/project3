@@ -1,0 +1,173 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100px;
+    background-color: #E1D7B7; 
+    text-align: center;
+    justify-content: center;
+}
+.header-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.title {
+    padding-right: 50rem;
+}
+
+.header-logo h1 {
+    font-family: cursive;
+}
+.header-logo p{
+    font-weight: 700;
+}
+.main-frame {
+    height: 700px;
+    border: 5px solid #1E2A5E;
+}
+.msg {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family:cursive;
+}
+.click-button {
+    height: 40px;
+    width: 150px;
+    margin-left: 43%;
+    border: 5px dashed #7C93C3;
+    background-color: #55679C;
+    color: #E1D7B7;
+    font-size:medium;
+}
+
+.click-button:hover {
+    box-shadow: 10px 5px 5px #E1D7B7;
+    border: none;
+}
+input[type="file"]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    border-radius: 0.2em;
+    background-color: #a29bfe;
+    transition: 1s;
+  }
+  
+  input[type="file"]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+}
+
+.top {
+    margin-top: 250px;
+    margin-bottom: 2rem;
+}
+.middle {
+    margin-bottom: 2rem;
+}
+.about 
+{
+    margin-left: 10px;
+    margin-top: 50px;
+    text-decoration-line: none;
+    font-size: larger;
+    font-family:  serif;
+}
+.about:hover {
+    text-decoration-line:underline;
+} */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7; /* light gray background */
+}
+
+h1 {
+	color: #333; /* dark gray font */
+	text-align: center; /* center the title */
+}
+
+header {
+	background-color: #4CAF50; /* green background */
+	color: #fff; /* white font */
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff; /* white font */
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc; /* light gray font on hover */
+}
+
+form {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="file"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50; /* green background */
+	color: #fff; /* white font */
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41; /* darker green background on hover */
+}
+
+#result {
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #f9f9f9; /* light gray background */
+}
+
+footer {
+	background-color: #333; /* dark gray background */
+	color: #fff; /* white font */
+	padding: 10px;
+	text-align: center;
+	clear: both;
+	margin-top: 100px;
+}
+
+input[type="text"] {
+    width: 300px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+  }
